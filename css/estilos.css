@@ -1,0 +1,871 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body-index{
+    font-family: 'Montserrat', sans-serif;
+}
+ a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.a1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul,
+ol 
+{
+  list-style: none;
+}
+
+button{
+    color: rgb(163, 27, 27);
+}
+/* ------- HEADER ------ */
+
+
+.header-index{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    
+    
+}
+.titulo-principal{
+    text-align: center;
+    color: rgb(12, 12, 235);
+
+}
+
+.nav-lista{ 
+    
+    font-size: 1.2rem;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.section-introduccion{
+    text-align: justify;
+    justify-content: center;
+    color: rgb(145, 86, 14);
+}
+
+/*========== productos =======*/
+
+.productos-princpal{
+    background-color: rgba(228, 22, 22, 0.733);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    flex-direction: column;
+    font-size: 45px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 15px 30px;
+    
+    
+    
+}
+    /*=== articulos por ceparados===*/
+.tipos-logos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+.logo{
+        background-color: rgb(255, 254, 254);
+        width: 250px;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: black;
+    
+       
+    
+}
+    
+.logo-mecha{
+        width: 100%;
+}
+    
+.logos{
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+.btn{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+}
+    
+    /*======articulo 2=======*/
+.logo2{
+        background-color: rgb(255, 254, 254);
+        width: 300px;
+        height: 250px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: black;
+}
+    
+.logo-valgab{
+        width: 100%;
+    }
+    
+.arreglos1{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+    
+    /*======articulo 3=======*/
+.logo3{
+        background-color: rgb(255, 254, 254);
+        width: 300px;
+        height: 250px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: black;
+    
+}
+    
+.logo-reiker{
+        width: 100%;
+}
+    
+.arreglos2{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+    
+    
+    /*======articulo 4=======*/
+.logo4{
+        background-color: rgb(255, 254, 254);
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: black;
+        
+}
+    
+.logo-montion{
+        width: 100%;
+}
+    
+.arreglos3{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+    
+    
+    /*====== una section con las razones ======*/
+    
+.razones{
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(22, 18, 223);
+        font-size: 40px;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+}
+    
+.arreglo-razones{
+        display: flex;
+        padding: 15px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+}
+.razon1{
+        height: 500px;
+        
+        
+}
+.razon2{
+        height: 500px;
+    
+}
+.imagen-certificados{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    
+}
+    
+.Certi{
+        background-color: rgba(228, 22, 22, 0.733);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 45px;
+        border-radius: 10px;
+        border: 1px;
+        padding: 15px 30px;
+}
+
+/*--------- index-----------*/
+/* ---------- media---------*/
+@media (min-width: 600px) and (max-width: 1400px){
+       
+.header-index{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        
+        
+}
+.titulo-principal{
+        text-align: center;
+        color: rgb(12, 12, 235);
+    
+}
+    
+
+.nav-lista{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0.4em;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.section-introduccion{
+    background-color: rgb(88, 39, 39);
+    height: 70vh;
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    display: flex;
+    
+   
+  
+    background-image: url("../img/principal.png");
+    background-position: center;
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.introduccion{
+  
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(0, 0, 0, 0.24);
+    
+}
+.intro{
+    background-color: rgba(0, 0, 0, 0.342);
+
+    font-size: 2rem;
+    padding:15px ;
+    text-align: center;
+
+}
+/*========== productos =======*/
+
+.productos-princpal{
+    background-color: rgba(228, 22, 22, 0.733);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    flex-direction: column;
+    font-size: 45px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 15px 30px;
+    
+    
+    
+}
+  /*=== articulos por ceparados===*/
+  .tipos-logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    background-color: rgb(255, 254, 254);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: black;
+
+   
+
+}
+
+.logo-mecha{
+    width: 100%;
+}
+
+.logos{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+/*======articulo 2=======*/
+.logo2{
+    background-color: rgb(255, 254, 254);
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: black;
+}
+
+.logo-valgab{
+    width: 100%;
+}
+
+.arreglos1{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*======articulo 3=======*/
+.logo3{
+    background-color: rgb(255, 254, 254);
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: black;
+
+}
+
+.logo-reiker{
+    width: 100%;
+}
+
+.arreglos2{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*======articulo 4=======*/
+.logo4{
+    background-color: rgb(255, 254, 254);
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: black;
+    
+}
+
+.logo-montion{
+    width: 100%;
+}
+
+.arreglos3{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*====== una section con las razones ======*/
+
+.razones{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(22, 18, 223);
+    font-size: 40px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.arreglo-razones{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.razon1{
+    height: 500px;
+    
+    
+}
+.razon2{
+    height: 500px;
+
+}
+.imagen-certificados{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    overflow: hidden;
+}
+
+.Certi{
+    background-color: rgba(228, 22, 22, 0.733);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 15px 30px;
+}
+}
+
+
+
+/*======== fin del media query index=====*/
+
+
+
+/*====== Pagina Productos========*/
+/*===========productos======*/
+
+
+.main-productos{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-productos{
+    background-color: white;
+    color: rgb(0, 47, 255);
+     
+    padding: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+
+}
+
+.distribui2{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.completo{
+background-color: white;
+color: rgb(0, 47, 255);
+padding: 15px;
+text-align: center;
+width: 100vw;
+}
+
+
+/*======= productos de aceites======*/
+
+/*=========OIL1=======*/
+
+.oil1{
+   
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+     
+}
+.formu1{
+    background-color: rgb(255, 254, 254);
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: black;
+
+}
+
+.imagen-aceite{
+    width: 70%;
+    
+}
+
+.lubri1{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+
+.imagen-aceite1{
+    width: 60%;
+}
+.imagen-aceite2{
+    width: 60%;
+}
+.imagen-aceite3{
+    width: 60%;
+}
+.imagen-aceite4{
+    width: 60%;
+}
+.imagen-aceite5{
+    width: 60%;
+}
+.imagen-aceite6{
+    width: 60%;
+}
+.imagen-aceite7{
+    width: 60%;
+}
+.imagen-aceite8{
+    width: 60%;
+}
+
+.inicio-productos{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1400px){
+
+.main-productos{
+    
+font-family: 'Montserrat', sans-serif;
+}
+    
+.titulo-productos{
+background-color: white;
+color: rgb(0, 47, 255);
+         
+padding: 30px;
+width: 100vw;
+display: flex;
+justify-content: center; 
+    
+}
+    
+.distribui2{
+background-color: rgb(8, 3, 3);
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+border-radius: 10px;
+padding: 0.5em;
+    
+    
+    }
+    
+.completo{
+background-color: white;
+color: rgb(0, 47, 255);
+padding: 15px;
+text-align: center;
+width: 100vw;
+}
+    
+    
+    /*======= productos de aceites======*/
+    
+    /*=========OIL1=======*/
+    
+    .oil1{
+       
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        align-content: stretch;
+       
+        
+    }
+    .formu1{
+        background-color: rgb(255, 254, 254);
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: black;
+    
+    }
+    
+    .imagen-aceite{
+        width: 70%;
+        
+    }
+    
+    .lubri1{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+    
+    
+    .imagen-aceite1{
+        width: 60%;
+    }
+    .imagen-aceite2{
+        width: 60%;
+    }
+    .imagen-aceite3{
+        width: 60%;
+    }
+    .imagen-aceite4{
+        width: 60%;
+    }
+    .imagen-aceite5{
+        width: 60%;
+    }
+    .imagen-aceite6{
+        width: 60%;
+    }
+    .imagen-aceite7{
+        width: 60%;
+    }
+    .imagen-aceite8{
+        width: 60%;
+    }
+    
+    
+    }
+
+/*====0
+    /*========= pagina contacto =======*/
+
+
+.encontrar{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: baseline;
+
+}
+ .whatsapp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 25px;
+ }
+.btn-wha{
+    background-color: rgb(168, 44, 44);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+}
+.Whatpsapp-ap{
+    width: 10%;
+}
+
+.instagram{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 25px;
+}
+.btn-inst{
+    background-color: rgb(168, 44, 44);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+.insta{
+    width: 10%;
+}
+
+.contamos{
+    background-color: rgba(219, 53, 24, 0.671);
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+line-height: 50px;
+ 
+}
+
+.asesorias{
+    font-size: 20px;
+}
+.mensajes{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+.titulo-mensaje{
+    background-color: white;
+    text-align: center;
+}
+/*========= acerca de nosotros=======*/
+.info-1{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 50px;
+}
+.titulo-info{
+    color: blue;
+    background-color: rgba(229, 255, 0, 0.555);
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.informacion{
+    text-decoration: underline;
+    color: red;
+}
+/*======= destino =====*/
+
+.titulo-destino{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-destino{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.encontrarnos{
+    color: blue;
+    font-size: 40px;
+}
+
+.maps{
+    border-radius: 10px;
+}
+/*============ footer============*/
+
+.inicio-productos{
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    border: 1px;
+    padding: 8px 10px;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+    background-image: url("../img/diesel.jpeg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
