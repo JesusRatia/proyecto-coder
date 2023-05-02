@@ -381,7 +381,7 @@ overflow: hidden;
 
 /*========== media deskot =======*/
 @media (min-width: 800px) and (max-width: 1400px){
-
+    
     .section-introduccion{
     background-color: rgb(88, 39, 39);
     height: 70vh;
@@ -393,7 +393,6 @@ overflow: hidden;
     background-size: cover;
     align-items: center;
     justify-content: center;
-    
     }
     
     .introduccion{
@@ -579,4 +578,6 @@ border-radius: 10px;
 border: 1px;
 padding: 15px 30px;
 }
+
+
 }
