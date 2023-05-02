@@ -1,0 +1,88 @@
+@media (max-width: 510px){
+.titulo-destino{
+background-color: rgb(255, 255, 255);
+color: blue;
+text-align: center;
+font-size: 25px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em rgb(32, 32, 138);
+padding: 5%;
+}
+
+.encontrarnos{
+background-color: rgb(255, 0, 0);
+color: blue;
+font-size: 25px;
+border-radius: 15%;
+
+}
+
+.section-destino{
+background-color: white;
+text-align: center;
+font-size: 20px;
+}
+
+
+
+.maps{
+border-radius: 20px;
+width: 50%;
+height: 40%;
+justify-content: center;
+padding: 3%;
+}
+}
+
+@media (min-width: 510px) and (max-width: 800px){
+.titulo-destino{
+background-color: white;
+color: blue;
+text-align: center;
+font-size: 40px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em rgb(32, 32, 138);
+}
+.section-destino{
+background-color: white;
+text-align: center;
+font-size: 30px;
+}
+.encontrarnos{
+color: blue;
+font-size: 40px;
+padding: 3%;
+}
+.maps{
+border-radius: 10px;
+width: 50%;
+height: 30%;
+justify-content: center;
+padding: 3%;
+}
+}
+@media (min-width: 800px) and (max-width: 1400px){
+.titulo-destino{
+background-color: white;
+color: blue;
+text-align: center;
+font-size: 40px;
+padding: 3px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em rgb(32, 32, 138);
+}
+
+.section-destino{
+background-color: white;
+text-align: center;
+font-size: 30px;
+padding: 3px;
+}
+
+.encontrarnos{
+        color: blue;
+        font-size: 40px;
+        padding: 15px;
+}
+.maps{
+border-radius: 10px;
+padding: 5%;
+}
+}
