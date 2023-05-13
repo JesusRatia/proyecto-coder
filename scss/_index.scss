@@ -1,5 +1,5 @@
 /*======= media =====*/
-@media (max-width: 510px ){
+@media (max-width: 375px ){
 .header-index{
 background-color: rgb(255, 255, 255);
 padding: 15px;
@@ -174,7 +174,7 @@ padding: 15px 30px;
 }
 }
 /*======= media tablet ======*/
-@media (min-width: 510px) and (max-width: 800px){
+@media (min-width: 375px) and (max-width: 700px){
 
 .section-introduccion{
 background-color: rgb(88, 39, 39);
@@ -380,7 +380,7 @@ overflow: hidden;
 }
 
 /*========== media deskot =======*/
-@media (min-width: 800px) and (max-width: 1400px){
+@media (min-width: 700px) and (max-width: 1200px){
     
     .section-introduccion{
     background-color: rgb(88, 39, 39);

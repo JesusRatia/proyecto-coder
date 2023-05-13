@@ -1,4 +1,4 @@
-@media (max-width: 510px){
+@media (max-width: 375px){
 .encontrar{
 display: flex;
 flex-direction: column;
@@ -70,7 +70,7 @@ background-color: white;
 text-align: center;
 }
 }
-@media (min-width: 510px) and (max-width: 800px){
+@media (min-width: 375px) and (max-width: 700px){
 .encontrar{
 display: flex;
 flex-direction: column;
@@ -142,7 +142,7 @@ background-color: white;
 text-align: center;
 }
 }
-@media (min-width: 800px) and (max-width: 1400px){
+@media (min-width: 700px) and (max-width: 1200px){
 .encontrar{
 background-color: white;
 width: 100%;
