@@ -1,6 +1,7 @@
 .section-introduccion {
   backdrop-filter: brightness(60%);
-  text-align: justify;
+  height: 80vh;
+  text-align: center;
   justify-content: center;
   color: rgb(255, 255, 255);
   background-image: url("../img/principal.png");
@@ -8,6 +9,15 @@
   background-size: cover;
   align-items: center;
   justify-content: center;
+}
+.introduccion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.9rem;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.26);
 }
 .imagen-certificados {
   background-color: white;
@@ -37,7 +47,7 @@
 /*=== articulos por ceparados===*/
 .tipos-logos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -162,103 +172,74 @@
 .razon2 {
   height: 500px;
 }
-@media (max-width: 360px) {
-.introduccion {
-  justify-content: center;
-  color: rgb(51, 255, 0);
-  background-color: white;
-  font-size: 1rem;
-  flex-flow: wrap;
+@media (max-width: 560px) {
+  .introduccion {
+    justify-content: center;
+    color: rgb(255, 1, 1);
+    background-color: white;
+    font-size: 1rem;
+    flex-flow: wrap;
   }
   .Certi {
-  background-color: white;
-  color: rgb(16, 0, 238);
-  text-align: center;
-  font-size: 15px;
-  padding: 15px 30px;
+    background-color: white;
+    color: rgb(16, 0, 238);
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 30px;
   }
   .productos-princpal {
-  background-color: white;
-  color: dodgerblue;
-  text-align: center;
-  font-size: 20px;
-  padding: 15px 30px;
+    background-color: white;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 30px;
   }
   .tipos-logos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .razon1 {
-  height: 350px;
+    height: 350px;
   }
   .razon2 {
-  height: 350px;
+    height: 350px;
   }
   .imagen-certificados {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
   }
-
-}
-@media (min-width: 360opx) and (max-width: 920px){
-.section-introduccion{
-  backdrop-filter: brightness(60%);
-  height: 60vh;
-  color: rgb(245, 243, 243);
-  font-size: 25px;
-  display: flex;
-  background-image: url("../img/principal.png");
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-}
-.introduccion{
-
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  font-size: 1.5rem;
-  flex-wrap: wrap;
-}
-.tipos-logos{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
-}
-@media (min-width: 920px) and (max-width: 1200px){
-  .section-introduccion{
-  backdrop-filter: brightness(60%);
-  height: 70vh;
-  color: rgb(245, 243, 243);
-  font-size: 25px;
-  display: flex;
-  background-image: url("../img/principal.png");
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-}
-.introduccion{
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  font-size: 1.5rem;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.26);
-}
-.tipos-logos{
+@media (min-width: 560px) and (max-width: 890px) {
+  .section-introduccion {
+    backdrop-filter: brightness(60%);
+    height: 70vh;
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    display: flex;
+    background-image: url("../img/principal.png");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .introduccion {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.26);
+  }
+  .tipos-logos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+  }
 }

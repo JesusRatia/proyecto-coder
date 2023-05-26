@@ -1,0 +1,64 @@
+.titulo-destino {
+  background-color: white;
+  padding: 30px;
+  text-shadow: 1px 1px 2px rgb(217, 255, 0), 0 0 1em blue, 0 0 0.2em blue;
+  text-align: center;
+  font-size: 40px;
+}
+
+.section-destino {
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.encontrarnos {
+  color: blue;
+  font-size: 40px;
+}
+
+.maps {
+  border-radius: 10px;
+}
+.negritas {
+  text-align: center;
+}
+@media (max-width: 560px) {
+  .titulo-destino {
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+  }
+  .encontrarnos {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0),
+      0 0 0.2em rgb(0, 0, 0);
+    font-size: 30px;
+  }
+
+  .maps {
+    border-radius: 20px;
+    width: 300px;
+  }
+}
+@media (min-width: 560px) and (max-width: 860px) {
+  .titulo-destino {
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+  }
+  .encontrarnos {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0),
+      0 0 0.2em rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  .maps {
+    border-radius: 2px;
+    width: 400px;
+    height: 400px;
+  }
+}
