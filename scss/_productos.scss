@@ -1,0 +1,114 @@
+.titulo-productos {
+  background-color: white;
+  color: rgb(0, 47, 255);
+
+  padding: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.distribui2 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.completo {
+  background-color: white;
+  color: rgb(0, 47, 255);
+  padding: 15px;
+  text-align: center;
+  width: 100vw;
+}
+.oil1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formu1 {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.imagen-aceite {
+  width: 70%;
+}
+
+.lubri1 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.imagen-aceite1 {
+  width: 60%;
+}
+.imagen-aceite2 {
+  width: 60%;
+}
+.imagen-aceite3 {
+  width: 60%;
+}
+.imagen-aceite4 {
+  width: 60%;
+}
+.imagen-aceite5 {
+  width: 60%;
+}
+.imagen-aceite6 {
+  width: 60%;
+}
+.imagen-aceite7 {
+  width: 60%;
+}
+.imagen-aceite8 {
+  width: 60%;
+}
+
+.inicio-productos {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 360px) {
+  .distribui2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .titulo-productos {
+  text-shadow: 1px 1px 2px pink;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+}
+@media (min-width: 360px) and (max-width: 960px){
+    .distribui2 {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgb(250, 132, 132), 0 0 1em hsl(219, 100%, 50%), 0 0 0.2em blue;
+        }
+}

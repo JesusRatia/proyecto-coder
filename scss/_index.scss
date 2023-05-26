@@ -1,0 +1,264 @@
+.section-introduccion {
+  backdrop-filter: brightness(60%);
+  text-align: justify;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-image: url("../img/principal.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.imagen-certificados {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Certi {
+  background-color: rgba(228, 22, 22, 0.733);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 15px 30px;
+}
+.productos-princpal {
+  background-color: rgba(228, 22, 22, 0.733);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  flex-direction: column;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 15px 30px;
+}
+/*=== articulos por ceparados===*/
+.tipos-logos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-mecha {
+  width: 100%;
+}
+
+.logos {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+}
+
+/*======articulo 2=======*/
+.logo2 {
+  background-color: rgb(255, 254, 254);
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-valgab {
+  width: 100%;
+}
+
+.arreglos1 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*======articulo 3=======*/
+.logo3 {
+  background-color: rgb(255, 254, 254);
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-reiker {
+  width: 100%;
+}
+
+.arreglos2 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*======articulo 4=======*/
+.logo4 {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-montion {
+  width: 100%;
+}
+
+.arreglos3 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*====== una section con las razones ======*/
+
+.razones {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(22, 18, 223);
+  font-size: 40px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.arreglo-razones {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.razon1 {
+  height: 500px;
+}
+.razon2 {
+  height: 500px;
+}
+@media (max-width: 360px) {
+.introduccion {
+  justify-content: center;
+  color: dodgerblue;
+  background-color: white;
+  font-size: 1rem;
+  flex-flow: wrap;
+  }
+  .Certi {
+  background-color: white;
+  color: rgb(16, 0, 238);
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 30px;
+  }
+  .productos-princpal {
+  background-color: white;
+  color: dodgerblue;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 30px;
+  }
+  .tipos-logos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .razon1 {
+  height: 350px;
+  }
+  .razon2 {
+  height: 350px;
+  }
+  .imagen-certificados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  }
+
+}
+@media (min-width: 360opx) and (max-width: 920px){
+.section-introduccion{
+  backdrop-filter: brightness(60%);
+  height: 60vh;
+  color: rgb(245, 243, 243);
+  font-size: 25px;
+  display: flex;
+  background-image: url("../img/principal.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.introduccion{
+
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+.tipos-logos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+}
+@media (min-width: 920px) and (max-width: 1200px){
+  .section-introduccion{
+  backdrop-filter: brightness(60%);
+  height: 70vh;
+  color: rgb(245, 243, 243);
+  font-size: 25px;
+  display: flex;
+  background-image: url("../img/principal.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.introduccion{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+.tipos-logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+}
