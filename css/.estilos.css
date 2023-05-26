@@ -1,0 +1,680 @@
+@import "./node_modules/animate.css/animate.css";
+.info-1 {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.titulo-info {
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.555);
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.informacion {
+  text-decoration: underline;
+  color: red;
+}
+
+@media (max-width: 360px) {
+  .titulo-info-1-1 {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(247, 0, 0);
+  }
+  .titulo-info {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (min-width: 600opx) and (max-width: 960px) {
+  .titulo-info {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+  .titulo-info {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Bevan", sans-serif;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  .titulo-info {
+    color: rgb(0, 17, 255);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bevan", sans-serif;
+  }
+}
+.info-1 {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.titulo-info {
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.555);
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.informacion {
+  text-decoration: underline;
+  color: red;
+}
+
+@media (max-width: 360px) {
+  .titulo-info-1-1 {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(247, 0, 0);
+  }
+  .titulo-info {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (min-width: 360opx) and (max-width: 920px) {
+  .titulo-info {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+  .titulo-info {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Bevan", sans-serif;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  .titulo-info {
+    color: rgb(0, 17, 255);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bevan", sans-serif;
+  }
+}
+.encontrar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.whatsapp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 25px;
+}
+
+.btn-wha {
+  background-color: rgb(168, 44, 44);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+}
+
+.Whatpsapp-ap {
+  width: 10%;
+}
+
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 25px;
+}
+
+.btn-inst {
+  background-color: rgb(168, 44, 44);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+}
+
+.insta {
+  width: 10%;
+}
+
+.contamos {
+  background-color: rgba(219, 53, 24, 0.671);
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.asesorias {
+  font-size: 20px;
+}
+
+.mensajes {
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.titulo-mensaje {
+  background-color: white;
+  text-align: center;
+}
+
+.section-introduccion {
+  backdrop-filter: brightness(60%);
+  text-align: justify;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-image: url("../img/principal.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-certificados {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Certi {
+  background-color: rgba(228, 22, 22, 0.733);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 15px 30px;
+}
+
+.productos-princpal {
+  background-color: rgba(228, 22, 22, 0.733);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  flex-direction: column;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 15px 30px;
+}
+
+/*=== articulos por ceparados===*/
+.tipos-logos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-mecha {
+  width: 100%;
+}
+
+.logos {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+}
+
+/*======articulo 2=======*/
+.logo2 {
+  background-color: rgb(255, 254, 254);
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-valgab {
+  width: 100%;
+}
+
+.arreglos1 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*======articulo 3=======*/
+.logo3 {
+  background-color: rgb(255, 254, 254);
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-reiker {
+  width: 100%;
+}
+
+.arreglos2 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*======articulo 4=======*/
+.logo4 {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.logo-montion {
+  width: 100%;
+}
+
+.arreglos3 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*====== una section con las razones ======*/
+.razones {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(22, 18, 223);
+  font-size: 40px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.arreglo-razones {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.razon1 {
+  height: 500px;
+}
+
+.razon2 {
+  height: 500px;
+}
+
+@media (max-width: 360px) {
+  .introduccion {
+    justify-content: center;
+    color: rgb(51, 255, 0);
+    background-color: white;
+    font-size: 1rem;
+    flex-flow: wrap;
+  }
+  .Certi {
+    background-color: white;
+    color: rgb(16, 0, 238);
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+  .productos-princpal {
+    background-color: white;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+  .tipos-logos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .razon1 {
+    height: 350px;
+  }
+  .razon2 {
+    height: 350px;
+  }
+  .imagen-certificados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+@media (min-width: 360opx) and (max-width: 920px) {
+  .section-introduccion {
+    backdrop-filter: brightness(60%);
+    height: 60vh;
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    display: flex;
+    background-image: url("../img/principal.png");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduccion {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .tipos-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 920px) and (max-width: 1200px) {
+  .section-introduccion {
+    backdrop-filter: brightness(60%);
+    height: 70vh;
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    display: flex;
+    background-image: url("../img/principal.png");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduccion {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.26);
+  }
+  .tipos-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+.titulo-productos {
+  background-color: white;
+  color: rgb(0, 47, 255);
+  padding: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.distribui2 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.completo {
+  background-color: white;
+  color: rgb(0, 47, 255);
+  padding: 15px;
+  text-align: center;
+  width: 100vw;
+}
+
+.oil1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formu1 {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+.imagen-aceite {
+  width: 70%;
+}
+
+.lubri1 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.imagen-aceite1 {
+  width: 60%;
+}
+
+.imagen-aceite2 {
+  width: 60%;
+}
+
+.imagen-aceite3 {
+  width: 60%;
+}
+
+.imagen-aceite4 {
+  width: 60%;
+}
+
+.imagen-aceite5 {
+  width: 60%;
+}
+
+.imagen-aceite6 {
+  width: 60%;
+}
+
+.imagen-aceite7 {
+  width: 60%;
+}
+
+.imagen-aceite8 {
+  width: 60%;
+}
+
+.inicio-productos {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  .distribui2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .titulo-productos {
+    text-shadow: 1px 1px 2px pink;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media (min-width: 360px) and (max-width: 960px) {
+  .distribui2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(250, 132, 132), 0 0 1em hsl(219, 100%, 50%), 0 0 0.2em blue;
+  }
+  .titulo-productos {
+    text-shadow: 1px 1px 2px blue, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 0, 0);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+  }
+  .completo {
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+    justify-content: center;
+    font-display: flex;
+    padding: 20px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  .titulo-productos {
+    background-color: white;
+    color: rgb(0, 47, 255);
+    padding: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .distribui2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 1em hsl(0, 100%, 50%), 0 0 0.2em rgb(255, 0, 0);
+  }
+  .completo {
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-display: flex;
+    padding: 30px;
+  }
+}
+.inicio-productos {
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px 10px;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  background-image: url("../img/diesel.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-index {
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  padding: 10%;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 1em blue, 0 0 0.2em rgb(1, 1, 202);
+}
+
+.nav-lista li {
+  display: inline-flex;
+  padding-inline: 5px;
+  justify-content: space-between;
+}
+
+@media (max-width: 360px) {
+  .nav-lista li {
+    display: flex;
+    font-size: 1rem;
+    padding: 0.3em;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 1em blue, 0 0 0.2em rgb(1, 1, 202);
+  }
+}
+@media (min-width: 360px) and (max-width: 920px) {
+  .nav-lista {
+    font-size: 1.2rem;
+    padding: 0.3em;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 1em blue, 0 0 0.2em rgb(1, 1, 202);
+  }
+}
+@media (min-width: 920px) and (max-width: 1200px) {
+  .nav-lista {
+    display: inline-flex;
+    font-size: 1.2rem;
+    padding: 0.3em;
+    text-align: center;
+    flex-direction: row;
+    text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 1em blue, 0 0 0.2em rgb(1, 1, 202);
+  }
+}
+
+/*# sourceMappingURL=.estilos.css.map */

@@ -1,0 +1,63 @@
+.encontrar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+    }
+     .whatsapp{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding: 25px;
+     }
+    .btn-wha{
+        background-color: rgb(168, 44, 44);
+        border-radius: 10px;
+        border: 1px;
+        padding: 8px 10px;
+        align-items: center;
+    }
+    .Whatpsapp-ap{
+        width: 10%;
+    }
+    
+    .instagram{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding: 25px;
+    }
+    .btn-inst{
+        background-color: rgb(168, 44, 44);
+        border-radius: 10px;
+        border: 1px;
+        padding: 8px 10px;
+        align-items: center;
+    }
+    
+    .insta{
+        width: 10%;
+    }
+    
+    .contamos{
+        background-color: rgba(219, 53, 24, 0.671);
+        color: white;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    line-height: 50px;
+    }
+    
+    .asesorias{
+        font-size: 20px;
+    }
+    .mensajes{
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+    }
+    .titulo-mensaje{
+        background-color: white;
+        text-align: center;
+    }

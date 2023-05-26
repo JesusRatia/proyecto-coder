@@ -102,13 +102,58 @@
 }
 }
 @media (min-width: 360px) and (max-width: 960px){
-    .distribui2 {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgb(250, 132, 132), 0 0 1em hsl(219, 100%, 50%), 0 0 0.2em blue;
-        }
+  .distribui2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(250, 132, 132), 0 0 1em hsl(219, 100%, 50%), 0 0 0.2em blue;
+}
+.titulo-productos{
+    text-shadow: 1px 1px 2px blue, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 0, 0);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.completo{
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+    justify-content: center;
+    font-display: flex;
+    padding: 20px;
+
+}
+}
+@media (min-width: 960px) and (max-width: 1200px){
+    .titulo-productos{
+  background-color: white;
+  color: rgb(0, 47, 255);
+  padding: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.distribui2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 1em hsl(0, 100%, 50%), 0 0 0.2em rgb(255, 0, 0);
+}
+.completo{
+    background-color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-display: flex;
+    padding: 30px;
+}
 }
